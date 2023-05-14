@@ -39,11 +39,11 @@
 
         raise_layer {
             bindings = <
-   &trans    &trans    &trans     &trans  &trans  &trans                  &trans  &trans     &trans      &kp MINUS  &kp EQUAL                &trans
-&kp GRAVE    &trans    &kp UP     &trans  &trans  &trans                  &trans  &trans     &trans       &kp LBKT   &kp RBKT  &kp NON_US_BACKSLASH
-   &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans                  &trans  &trans     &trans  &kp SEMICOLON    &kp SQT                &trans
-   &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA     &kp PERIOD  &kp SLASH                &trans
-                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+   &kp GRAVE    &trans    &trans     &trans  &trans  &trans                  &trans  &trans     &trans      &kp MINUS  &kp EQUAL         &trans
+&kp CAPSLOCK    &trans    &kp UP     &trans  &trans  &trans                  &trans  &trans     &trans       &kp LBKT   &kp RBKT  &kp BACKSLASH
+  &kp LSHIFT  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans                  &trans  &trans     &trans  &kp SEMICOLON    &kp SQT         &trans
+      &trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp COMMA     &kp PERIOD  &kp SLASH         &trans
+                                     &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
