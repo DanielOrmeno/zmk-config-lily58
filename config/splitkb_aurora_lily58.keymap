@@ -52,7 +52,8 @@ nice_view_spi: &spi0 {
                            &kp LALT  &kp LEFT_COMMAND   &mo 1     &kp SPACE     &kp RET   &mo 2  &kp DELETE  &kp RMETA
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
+
 
 
         };
@@ -66,7 +67,7 @@ nice_view_spi: &spi0 {
                                                             &trans        &trans        &trans  &trans  &trans     &trans     &trans           &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         raise_layer {
@@ -78,7 +79,7 @@ nice_view_spi: &spi0 {
                                      &trans  &trans                &trans  &trans  &trans                &trans  &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
