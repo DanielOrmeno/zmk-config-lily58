@@ -40,15 +40,14 @@ nice_view_spi: &spi0 {
 };
 
 / {
+
     behaviors {
         sensor_noop: sensor_noop {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
         };
     };
-};
 
-/ {
     keymap {
         compatible = "zmk,keymap";
 
