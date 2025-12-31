@@ -1,0 +1,8 @@
+/*
+ * Enable the right-half EC11 encoder instance from the upstream
+ * splitkb_aurora_lily58 shield devicetree.
+ */
+
+&right_encoder {
+    status = "okay";
+};
